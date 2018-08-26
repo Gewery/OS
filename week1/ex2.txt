@@ -1,0 +1,114 @@
+    1  cd bash
+    2  cd ..
+    3  cd week1
+    4  ls
+    5  cd dock
+    6  cd week1
+    7  l
+    8  ls
+    9  cat list2.txt
+   10  cat list2.txt | less
+   11  cat list2.txt | more
+   12  cat list2.txt | less
+   13  cat list2.txt | more
+   14  cat -E list2.txt
+   15  cat -e list2.txt
+   16  cat list1.txt
+   17  echo AabaA > list1.txt
+   18  cat list1.txt
+   19  cat list1.txt >> list2.txt
+   20  cat list1.txt
+   21  cat list2.txt
+   22  cat list1.txt list2.txt | sort
+   23  cat list1.txt list2.txt | sort -r
+   24  cd ..
+   25  cd ..
+   26  cd bin
+   27  grep gcc
+   28  cd ..
+   29  grep gcc /bin
+   30  grep gcc bin
+   31  man grep
+   32  cd dock
+   33  cd week1
+   34  grep txt list2.txt
+   35  cd ..
+   36  cd ..
+   37  cd bin
+   38  cat -a
+   39  cat *
+   40  cd ..
+   41  cd dock/week1
+   42  cat * | grep .txt
+   43  cat list1.txt
+   44  cat list2.txt
+   45  touch list2.txt
+   46  cat list2.txt
+   47  echo list2.txt > list2.txt
+   48  cat list2.txt
+   49  echo abacaba > list2.txt
+   50  cat list2.txt
+   51  list1.txt >> list2.txt
+   52  cat list1.txt >> list2.txt
+   53  cat list2.txt
+   54  echo Lol.gcc >> list2.txt
+   55  cat list2.txt
+   56  echo rrrgccbbb >> list2.txt
+   57  cat list2.txt
+   58  echo list1gcctxt >> list1.txt
+   59  cat list1.txt
+   60  cat list2.txt
+   61  grep gcc *
+   62  cat * | grep gcc
+   63  cd ..
+   64  cd ..
+   65  cd bin
+   66  echo lol > ../dock/newtext.txt
+   67  cd ..
+   68  cd dock
+   69  ls
+   70  cat newtext.txt
+   71  rm newtext.txt
+   72  cd ..
+   73  cd bin
+   74  grep * gcc | sort -r > ../dock/week1/ex1.txt
+   75  grep gcc * | sort -r > ../dock/week1/ex1.txt
+   76  cd ..
+   77  cd dock
+   78  cd week1
+   79  cat ex1.txt
+   80  cd ..
+   81  ls
+   82  cd ..
+   83  ls
+   84  cd usr
+   85  ls
+   86  cd bin
+   87  ls
+   88  grep gcc * | sort -r > ~/dock/week1/ex1.txt
+   89  cd ~
+   90  ls
+   91  cd /usr
+   92  cd bin
+   93  grep gcc * | sort -r > /dock/week1/ex1.txt
+   94  cd /dock
+   95  cd week1
+   96  cat ex1.txt
+   97  cd usr/bin
+   98  cd /usr/bin
+   99  cat * | grep gcc | sort -r > /dock/week1/ex11.txt
+  100  cd /dock/week1
+  101  cat ex11.txt
+  102  cd /usr/bin
+  103  cat * | grep gcc | sort -r
+  104  ls
+  105  grep gcc ls
+  106  ls > grep gcc
+  107  ls | grep gcc
+  108  ls | grep gcc
+  109  ls | grep gcc | sort -r
+  110  ls | grep gcc | sort -r > /dock/week1/ex1.txt
+  111  cat /dock/week1/ex1.txt
+  112  history
+  113  cd /dock/week1
+  114  history > ex2.txt
