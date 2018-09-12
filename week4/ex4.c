@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void read(char *st) {
-	gets(st);
+	gets(st); // Let's just read all the string until '\n'
 }
 
 int main() {
