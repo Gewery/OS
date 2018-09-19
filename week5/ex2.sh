@@ -1,4 +1,4 @@
-i=10
+i=10000
 while [ $i -gt 0 ]
 do
 	last=`tail -n 1 out.txt`
