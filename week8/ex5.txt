@@ -1,0 +1,2 @@
+Physical address is real "location" of memory cell in RAM. 
+Virtual address is either the same or it represent some mapping(in page table) to it.
