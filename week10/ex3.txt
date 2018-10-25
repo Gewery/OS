@@ -1,0 +1,9 @@
+-rw-r--r-- 1 root root 0 Oct 25 18:37 _ex3.txt
+-rwxr--rwx 1 root root 0 Oct 25 18:37 _ex3.txt
+-rwxrwxrwx 1 root root 0 Oct 25 18:37 _ex3.txt
+
+
+
+660: For user and group: read and write
+775: read and execute for user, group and others, write for user and groups
+777: read, write and execute for user, group and other

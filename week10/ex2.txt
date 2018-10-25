@@ -1,0 +1,81 @@
+./_ex12.txt
+    1  ls
+    2  cd dock
+    3  ls
+    4  git clone https://github.com/Gewery/OS.git
+    5  cd OS
+    6  mkdir week10
+    7  cd week10
+    8  touch _ex1.txt
+    9  ln _ex1_1.txt _ex1.txt
+   10  ln _ex1.txt _ex1_1.txt
+   11  ln _ex1.txt _ex1_2.txt
+   12  ls -i _ex1.txt > ex1.txt
+   13  ls -i _ex1_1.txt >> ex1.txt
+   14  ls -i _ex1_2.txt >> ex1.txt
+   15  cat ex1.txt
+   16  ex1.txt | end >> ex1.txt
+   17  ex1.txt | 'end' > ex1.txt
+   18  ex1.txt | 123 > ex1.txt
+   19  cat ex1.txt
+   20  ls -i _ex1.txt > ex1.txt
+   21  ls -i _ex1_1.txt >> ex1.txt
+   22  ls -i _ex1_2.txt >> ex1.txt
+   23  cat ex1.txt
+   24  link
+   25  link --help
+   26  cd ..
+   27  cd week1
+   28  ls
+   29  cd ..
+   30  mkdir week01
+   31  cd week01
+   32  touch file.txt
+   33  cd ..
+   34  cd week10
+   35  ls
+   36  link ~/dock/OS/week01/file.txt _ex12.txt
+   37  link ../week01/file.txt _ex12.txt
+   38  ls
+   39  find 
+   40  find --help
+   41  find ../OS/week01/file.txt -inum inodenumber
+   42  find
+   43  find ../OS/week01/file.txt -inum 
+   44  cd ..
+   45  cd week01
+   46  ls -i file.txt
+   47  cd ..
+   48  cd week1-
+   49  cd week10
+   50  ls
+   51  find ../OS/week01/file.txt -inum 23950
+   52  find ../week01/file.txt -inum 23950
+   53  find -inum 23950
+   54  rename
+   55  move  _ex12.txt _ex_2.txt
+   56  find -inum 23950
+   57  find -inum 23950 > ex2.txt
+   58  find -inum 23950 -exec rm {} \;
+   59  find ../week01/file.txt -inum 23950 -exec rm {} \; >> ex2.txt
+   60  cat ex2.txt
+   61  find ../week01/file.txt -inum 23950 -exec rm {} \;
+   62  cd ..
+   63  cd week-1
+   64  cd week01
+   65  ls
+   66  ls
+   67  ls
+   68  ls
+   69  ls
+   70  l
+   71  apt-get update
+   72  apt-get install nano
+   73  hist
+   74  history
+   75  cat ex2.txt
+   76  cd ..
+   77  cd week10
+   78  ls
+   79  cat ex2.txt
+   80  history >> ex2.txt
