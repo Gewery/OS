@@ -1,0 +1,1 @@
+Adding "\n" make buffer empty, so, fifth line in 1st program code doesn't clear the buffer and we can see string two times in the output
